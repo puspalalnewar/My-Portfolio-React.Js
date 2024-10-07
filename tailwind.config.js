@@ -5,7 +5,7 @@ import tailwindScrollbar from 'tailwind-scrollbar';
 module.exports = {
   content: [
     ".index.html",
-    "./src/**/*.{html,js, jsx}"],
+    "./src/**/*.{html,js,jsx}"],
   theme: {
     extend: {
       fontFamily: {

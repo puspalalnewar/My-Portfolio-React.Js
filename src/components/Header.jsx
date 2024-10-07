@@ -1,32 +1,30 @@
 import React from 'react'
+import { FaBars } from "react-icons/fa";
+import { FaUserAlt } from "react-icons/fa";
 
 const header = () => {
   return (
     <>
-      <header className='fixed top-0 left-0 w-full h-20 flex items-center z-40 bg-gradient-to-b from-zinc-900 to-zinc-900/0'>
-        <div className="max-w-screen-2xl w-full mx-auto px-4">
-          <h1>
-            <a href="/"
-              className='logo'
-            >
-              <img src="/images/pn-logo.png" alt="Puspalal Newar"
-                width={40}
-                height={40}
-              />
-
+      <header className=' fixed top-0 left-0 w-full h-20 flex items-center z-40 bg-gradient-to-b from-zinc-900 to-zinc-900/0'>
+        <div className="max-w-screen-2xl bg-red w-full mx-auto px-4 flex justify-around">
+          {/* <h1 className='text-lg'>Newar</h1> */}
+          <FaUserAlt className='text-[1.5rem]'/>
+          <div className="hidden md:block bg-zinc-50/10 p-3 rounded text-sm">
+            <a href="#" className='mr-5'>Home</a>
+            <a href="#" className='mr-5'>Work</a>
+            <a href="#" className='mr-5'>About</a>
+            <a href="#" className=''>Review</a>
+              
+          </div>
+          <FaBars className='md:hidden' />
+          <div className="hidden md:h-10 w-24 cursor-pointer bg-slate-50 text-black md:flex justify-center items-center rounded text-sm">
+            <a href="#contact" className=''>
+              Contact Me
             </a>
-          </h1>
+          </div>
         </div>
       </header>
 
-      <div className="">
-        <button
-        className=''
-        onClick={null}
-        >
-          <span className='material-symbols-rounded'>menu</span>
-        </button>
-      </div>
     </>
   )
 }
