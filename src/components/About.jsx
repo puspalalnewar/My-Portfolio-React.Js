@@ -16,11 +16,11 @@ const About = () => {
             <div className='pl-9 pb-9 flex gap-4'>
                 <div className="box">
                     <h1 className='text-[2.5rem]'>{projectCount}<span className='text-cyan-500'>+</span></h1>
-                    <p className='text-sm'>Project Done</p>
+                    <p className='text-sm text-[#bdbdbd]'>Project Done</p>
                 </div>
                 <div className="box">
                     <h1 className='text-[2.5rem]'>{projectCount}<span className='text-cyan-500'>+</span></h1>
-                    <p className='text-sm'>Project Done</p>
+                    <p className='text-sm text-[#bdbdbd]'>Project Done</p>
                 </div>
 
             </div>
