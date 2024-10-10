@@ -1,5 +1,4 @@
 import React from 'react'
-import image from '../Assets/javascript.svg'
 import ToolsIcon from './ToolsIcon'
 
 

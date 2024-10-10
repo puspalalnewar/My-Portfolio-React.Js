@@ -36,9 +36,30 @@ const data = [
     },
     {
         id : 3,
-        projectName : "Power Calculator",
+        projectName : "Currency Converter",
         projectImg: project3,
         tools : [html, css3, mongodb]
+        
+    },
+    {
+        id : 4,
+        projectName : "Power Calculator",
+        projectImg: project4,
+        tools : [html, css3, mongodb, react, nodejs, tailwindcss]
+        
+    },
+    {
+        id : 5,
+        projectName : "Power Calculator",
+        projectImg: project5,
+        tools : [mongodb, html, css3, js]
+        
+    },
+    {
+        id : 6,
+        projectName : "Power Calculator",
+        projectImg: project6,
+        tools : [mongodb, html, css3, js]
         
     },
 ]
