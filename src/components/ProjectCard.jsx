@@ -12,10 +12,11 @@ const ProjectCard = (props) => {
             </div>
             <p className='text-[1.3rem] font-bold mt-5'>{props.projectName}</p>
             <div className="btn mt-2">
-                <button className='h-10 w-24 cursor-pointer bg-[#76d4ff] text-black rounded text-sm mr-3'>View Live</button>
-                <button className='h-10 w-24 cursor-pointer bg-[#76d4ff] text-black rounded text-sm'>GitHub</button>
+                <button onClick={()=>window.open(props.netlifyLink)} className='h-10 w-24 cursor-pointer bg-[#76d4ff] text-black rounded text-sm mr-3'>View Live</button>
+                <button onClick={()=>window.open(props.githubLink)} className='h-10 w-24 cursor-pointer bg-[#76d4ff] text-black rounded text-sm'>GitHub</button>
             </div>
-            <div className="tools flex gap-[1px] mt-2">
+            <div className="tools flex gap-[1px] mt-2 items-center">
+                <strong className='text-[#bdbdbd]'>Tools : </strong>
                 {
                     icons.map((item , idx) => {
                         return (

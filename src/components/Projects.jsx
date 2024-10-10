@@ -18,33 +18,36 @@ import react from '../Assets/react.svg'
 import tailwindcss from '../Assets/tailwindcss.svg'
 
 
+
 const data = [
     {
         id : 1,
         projectName : "Music App",
         projectImg: project1,
-        tools : [html, css3, js],
+        tools : [html, css3, js, react, expressjs, nodejs],
+        githubLink : "https://github.com/puspalalnewar/currency-converter",
+        netlifyLink : null,
     },
     {
         id : 2,
         projectName : "Search Images",
         projectImg: project2,
-        tools : [html, css3, js]
+        tools : [html, css3, js, figma, tailwindcss]
     },
     {
         id : 3,
         projectName : "Power Calculator",
         projectImg: project3,
-        tools : [html, css3]
+        tools : [html, css3, mongodb]
         
     },
 ]
 
 const Projects = () => {
     return (
-        <div className='max-w-screen-lg m-auto mt-20 mb-8'>
+        <div className='max-w-screen-lg m-auto mt-20'>
             <p className='text-[2rem] font-medium'>My Portfolio Highlights</p>
-            <div className="box flex gap-[1rem] flex-wrap justify-center mt-[2rem]">
+            <div className="box flex gap-[1rem] flex-wrap justify-center mt-[1rem]">
                 
                 {
                     data.map((val)=>{
