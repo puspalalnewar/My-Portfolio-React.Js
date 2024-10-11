@@ -7,7 +7,7 @@ import ContactForm from './ContactForm';
 
 const Contact = () => {
     return (
-        <div className='max-w-screen-lg m-auto mt-20 mb-8'>
+        <div id='contact' className='max-w-screen-lg m-auto mt-20 mb-8'>
             <p className='text-[2rem] font-medium'>Contact Me</p>
             <div className="flex justify-center gap-8 md:flex flex-wrap md:w-full md:justify-between mt-[1rem]">
                 <div className='w-[20rem]'>
@@ -20,7 +20,7 @@ const Contact = () => {
                         <IoLogoInstagram className='cursor-pointer'/>
                     </div>
                 </div>
-                <div className='md:w-[45%] '>
+                <div className='pl-4 pr-4 md:w-[45%]'>
                     <ContactForm />
                 </div>
             </div>

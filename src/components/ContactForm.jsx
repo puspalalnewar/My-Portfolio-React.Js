@@ -30,10 +30,13 @@ const ContactForm = () => {
     return (
         <div className='w-100%'>
             <form onSubmit={onSubmit}>
+                <p className='mb-1 font-semibold text-sm'>Full Name</p>
                 <input type="text" name="name" required placeholder='Full name' className='w-full h-[2.7rem] mb-4 bg-zinc-50/10 p-4 rounded-md' />
+                <p className='mb-1 font-semibold text-sm'>Email</p>
                 <input type="email" name="email" required placeholder='Gmail' className='w-full h-[2.7rem] mb-4 bg-zinc-50/10 p-4 rounded-md' />
+                <p className='mb-1 font-semibold text-sm'>Message</p>
                 <textarea name="message" required placeholder='Write Your Needs' className='w-full h-[6rem] mb-1 bg-zinc-50/10 p-4 rounded-md'></textarea>
-                <button type="submit" className='h-[3rem] p-4 rounded cursor-pointer bg-[#76d4ff] text-black text-sm'>Submit Form</button>
+                <button type="submit" className='w-full h-[3rem] rounded cursor-pointer bg-[#76d4ff] text-black text-sm'>Submit Form</button>
             </form>
             <span>{result}</span>
 

@@ -10,15 +10,15 @@ const header = () => {
           {/* <h1 className='text-lg'>Newar</h1> */}
           <FaUserAlt className='text-[1.5rem] inline' />
           <div className="hidden md:block bg-zinc-50/10 p-3 rounded text-sm">
-            <a href="#" className='mr-5'>Home</a>
-            <a href="#" className='mr-5'>Work</a>
-            <a href="#" className='mr-5'>About</a>
-            <a href="#" className=''>Review</a>
+            <a href="/" className='mr-5'>Home</a>
+            <a href="/" className='mr-5'>Work</a>
+            <a href="/" className='mr-5'>About</a>
+            <a href="/" className=''>Review</a>
 
           </div>
           <FaBars className='md:hidden' />
           <div className="hidden md:h-10 w-24 cursor-pointer bg-slate-50 text-black md:flex justify-center items-center rounded text-sm">
-            <a href="#contact" className=''>
+            <a href="/contact" className=''>
               Contact Me
             </a>
           </div>
