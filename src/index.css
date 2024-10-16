@@ -7,9 +7,6 @@
   box-sizing: border-box;
 }
 
-html{
-  scroll-behavior: smooth;
-}
 body{
   @apply bg-zinc-900 text-zinc-50
 }
