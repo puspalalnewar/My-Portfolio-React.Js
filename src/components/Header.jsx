@@ -18,9 +18,7 @@ const Header = () => {
           </div>
           <FaBars className='md:hidden' />
           <div className="hidden md:h-10 w-24 cursor-pointer bg-slate-50 text-black md:flex justify-center items-center rounded text-sm">
-            <a href="/" >
-              Contact Me
-            </a>
+            <Link to="contact" smooth={true} duration={500}> Contact Me</Link>
           </div>
         </div>
       </header>

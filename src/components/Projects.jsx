@@ -68,7 +68,7 @@ const Projects = () => {
     return (
         <div className='max-w-screen-lg m-auto mt-20'>
             <p className='text-[2rem] font-medium'>My Portfolio Highlights</p>
-            <div className="box flex gap-[1rem] flex-wrap justify-center mt-[1rem]">
+            <div className="box flex gap-[1rem] flex-wrap justify-center mt-[1rem] p-4">
                 
                 {
                     data.map((val)=>{
