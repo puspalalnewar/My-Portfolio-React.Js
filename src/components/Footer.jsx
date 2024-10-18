@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="w-[20rem]">
                 <p className='text-[2.5rem]'>Let's work together today!</p>
             </div>
-                <div className="mt-[5rem] w-full md:mt-0 flex justify-around md:w-[50%] flex-wrap">
+                <div className="mt-[3rem] w-full md:mt-0 flex justify-around md:w-[50%] flex-wrap">
                     <div className='text-center text-[#bdbdbd] text-sm'>
                         <p className='text-[1.3rem] text-white'>Sitemap</p>
                         <p>Home</p>

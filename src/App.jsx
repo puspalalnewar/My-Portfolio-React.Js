@@ -23,7 +23,7 @@ function App() {
       <Element name='contact'>
         <Contact />
       </Element>
-      <Footer/>
+      <Footer />
     </div>
   );
 }
