@@ -17,9 +17,9 @@ const Contact = () => {
                     </div>
                     <div className="social flex gap-2 text-[1.5rem] mt-10">
                         <FaLinkedin className='cursor-pointer' onClick={() => window.open("https://www.linkedin.com/in/puspalalnewar/")} />
-                        <FaGithub className='cursor-pointer' />
-                        <FaXTwitter className='cursor-pointer' />
-                        <IoLogoInstagram className='cursor-pointer' />
+                        <FaGithub className='cursor-pointer' onClick={() => window.open("https://github.com/puspalalnewar")}/>
+                        <FaXTwitter className='cursor-pointer' onClick={() => window.open("https://x.com/puspalal_newar")}/>
+                        <IoLogoInstagram className='cursor-pointer' onClick={() => window.open("https://www.instagram.com/puspalal_newar/")}/>
                     </div>
                 </div>
                 <div className='w-[100%]'>
