@@ -1,13 +1,13 @@
 import React from 'react'
 import Card from './Card'
+import html from '../Assets/html.png'
 import css3 from '../Assets/css3.svg'
-import expressjs from '../Assets/expressjs.svg'
 import figma from '../Assets/figma.svg'
 import js from '../Assets/javascript.svg'
-import mongodb from '../Assets/mongodb.svg'
-import nodejs from '../Assets/nodejs.svg'
+import bootstrap from '../Assets/bootstrap.png'
 import react from '../Assets/react.svg'
 import tailwindcss from '../Assets/tailwindcss.svg'
+import java from '../Assets/java.svg'
 
 const toolsData = [
     {
@@ -30,14 +30,14 @@ const toolsData = [
     },
     {
         id: 4,
-        images: expressjs ,
-        toolName: "Express js",
-        uses: "Node Framework",
+        images: bootstrap ,
+        toolName: "Bootstrap",
+        uses: "User Interface",
     },
     {
         id: 5,
-        images:  nodejs,
-        toolName: "Node Js",
+        images:  java,
+        toolName: "Java",
         uses: "Web Server",
     },
     {
@@ -48,9 +48,9 @@ const toolsData = [
     },
     {
         id: 7,
-        images: mongodb ,
-        toolName: "MongoDB",
-        uses: "Database",
+        images: html ,
+        toolName: "HTML",
+        uses: "Web Pages",
     },
     {
         id: 8,

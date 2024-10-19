@@ -4,6 +4,7 @@ const About = () => {
 
     const projectCount = 30;
 
+
     return (
         <div className='max-w-screen-lg mx-auto bg-zinc-50/10 mt-8 rounded'>
             <p className='p-9 pb-2'>
@@ -18,10 +19,10 @@ const About = () => {
                     <h1 className='text-[2.5rem]'>{projectCount}<span className='text-cyan-500'>+</span></h1>
                     <p className='text-sm text-[#bdbdbd]'>Project Done</p>
                 </div>
-                <div className="box">
+                {/* <div className="box">
                     <h1 className='text-[2.5rem]'>{projectCount}<span className='text-cyan-500'>+</span></h1>
-                    <p className='text-sm text-[#bdbdbd]'>Project Done</p>
-                </div>
+                    <p className='text-sm text-[#bdbdbd]'>Work Experience</p>
+                </div> */}
 
             </div>
 

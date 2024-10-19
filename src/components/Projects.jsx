@@ -1,66 +1,71 @@
 import React from 'react'
 import ProjectCard from './ProjectCard'
-import project1 from '../Assets/project-1.jpg'
-import project2 from '../Assets/project-2.jpg'
-import project3 from '../Assets/project-3.jpg'
-import project4 from '../Assets/project-4.jpg'
-import project5 from '../Assets/project-5.jpg'
-import project6 from '../Assets/project-6.jpg'
+
+// Projects Images
+import ageCal from '../Assets/age-calculator.png';
+import currencyConverter from '../Assets/currency-converter.png'
+import dictionary from '../Assets/dictionary.png'
+import expenseTracker from '../Assets/expense-tracker.png'
+import powCal from '../Assets/power-calculator.png'
+import quote from'../Assets/quote-app.png'
+
 
 import html from '../Assets/html.png'
 import css3 from '../Assets/css3.svg'
-import expressjs from '../Assets/expressjs.svg'
-import figma from '../Assets/figma.svg'
 import js from '../Assets/javascript.svg'
-import mongodb from '../Assets/mongodb.svg'
-import nodejs from '../Assets/nodejs.svg'
-import react from '../Assets/react.svg'
-import tailwindcss from '../Assets/tailwindcss.svg'
+// import react from '../Assets/react.svg'
+// import tailwindcss from '../Assets/tailwindcss.svg'
 
 
 
 const data = [
     {
         id : 1,
-        projectName : "Music App",
-        projectImg: project1,
-        tools : [html, css3, js, react, expressjs, nodejs],
+        projectName : "Currency Converter",
+        projectImg: currencyConverter,
+        tools : [html, css3, js],
         githubLink : "https://github.com/puspalalnewar/currency-converter",
-        netlifyLink : null,
+        netlifyLink : "https://pn-currency-converter.netlify.app",
     },
     {
         id : 2,
-        projectName : "Search Images",
-        projectImg: project2,
-        tools : [html, css3, js, figma, tailwindcss]
+        projectName : "Age Calculator",
+        projectImg: ageCal,
+        tools : [html, css3, js],
+        githubLink : "https://github.com/puspalalnewar/Age-Calculator",
+        netlifyLink : "https://pn-age-calculator.netlify.app",
     },
     {
         id : 3,
-        projectName : "Currency Converter",
-        projectImg: project3,
-        tools : [html, css3, mongodb]
-        
+        projectName : "Dictionary Web App",
+        projectImg: dictionary,
+        tools : [html, css3, js],
+        githubLink : "https://github.com/puspalalnewar/English-Dictionary",
+        netlifyLink : "https://pn-eng-dictionary.netlify.app",
     },
     {
         id : 4,
         projectName : "Power Calculator",
-        projectImg: project4,
-        tools : [html, css3, mongodb, react, nodejs, tailwindcss]
-        
+        projectImg: powCal,
+        tools : [html, css3, js],
+        githubLink : "https://github.com/puspalalnewar/Power-Calculator",
+        netlifyLink : "https://newar-power-calculator.netlify.app",
     },
     {
         id : 5,
-        projectName : "Power Calculator",
-        projectImg: project5,
-        tools : [mongodb, html, css3, js]
-        
+        projectName : "Expense Tracker",
+        projectImg: expenseTracker,
+        tools : [html, css3, js],
+        githubLink : "https://github.com/puspalalnewar/Expense-Tracker",
+        netlifyLink : "https://pn-expense-tracker.netlify.app",
     },
     {
         id : 6,
-        projectName : "Power Calculator",
-        projectImg: project6,
-        tools : [mongodb, html, css3, js]
-        
+        projectName : "Random Quote Generator",
+        projectImg: quote,
+        tools : [html, css3, js],
+        githubLink : "https://github.com/puspalalnewar/random-quote-generator",
+        netlifyLink : "https://pn-quote-generator.netlify.app",
     },
 ]
 

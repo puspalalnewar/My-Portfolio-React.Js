@@ -15,7 +15,6 @@ const ProjectCard = (props) => {
                 <button onClick={()=>window.open(props.githubLink)} className='h-10 w-24 cursor-pointer bg-[#76d4ff] text-black rounded text-sm'>GitHub</button>
             </div>
             <div className="tools flex gap-[1px] mt-2 items-center">
-                <strong className='text-[#bdbdbd]'>Tools : </strong>
                 {
                     icons.map((item , idx) => {
                         return (
