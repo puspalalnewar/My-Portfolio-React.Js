@@ -7,13 +7,13 @@ import currencyConverter from '../Assets/currency-converter.png'
 import dictionary from '../Assets/dictionary.png'
 import expenseTracker from '../Assets/expense-tracker.png'
 import powCal from '../Assets/power-calculator.png'
-import quote from'../Assets/quote-app.png'
+import quote from'../Assets/random-quote.png'
 
 
 import html from '../Assets/html.png'
 import css3 from '../Assets/css3.svg'
 import js from '../Assets/javascript.svg'
-// import react from '../Assets/react.svg'
+import react from '../Assets/react.svg'
 // import tailwindcss from '../Assets/tailwindcss.svg'
 
 
@@ -63,9 +63,9 @@ const data = [
         id : 6,
         projectName : "Random Quote Generator",
         projectImg: quote,
-        tools : [html, css3, js],
-        githubLink : "https://github.com/puspalalnewar/random-quote-generator",
-        netlifyLink : "https://pn-quote-generator.netlify.app",
+        tools : [react, css3],
+        githubLink : "https://github.com/puspalalnewar/Quote-Generator-React-Js",
+        netlifyLink : "https://newar-quote-generator.netlify.app/",
     },
 ]
 
